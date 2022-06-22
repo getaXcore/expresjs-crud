@@ -3,6 +3,7 @@
 - <a href='https://sequelize.org/docs/v6/core-concepts/model-basics/'>Sequlize</a>
 - <a href='https://www.npmjs.com/package/winston'>Winston</a>
 - <a href='https://www.npmjs.com/package/dotenv'>Dotenv</a>
+- <a href='https://www.npmjs.com/package/app-root-path'>App-root-path</a>
 
 This is Node.Js backend service
 
