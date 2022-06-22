@@ -1,0 +1,2334 @@
+{"level":"error","message":"Unknown column 'created_dat' in 'field list'"}
+{"level":"error","message":"Unknown column 'created_dat' in 'field list'"}
+{"date":"Thu Jun 16 2022 14:42:10 GMT+0700 (Indochina Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"level":"error","message":"uncaughtException: Cannot set headers after they are sent to the client\nError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:9:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":247334},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":148530,"external":1224804,"heapTotal":19312640,"heapUsed":17779352,"rss":49508352},"pid":16568,"uid":null,"version":"v16.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:9:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js","function":"Response","line":9,"method":null,"native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":"getAllUsers","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"info","message":{"error":null,"method":"POST","request":null,"response":[{"created_date":"2022-06-14 06:53:57","first_name":"Irwan","id":1,"last_name":"Syah","modified_date":"2022-06-16 09:58:47"},{"created_date":"2022-06-14 14:07:44","first_name":"Taufan","id":2,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":3,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":4,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":5,"last_name":"septaufani","modified_date":"2022-06-16 09:55:08"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":6,"last_name":"septaufani","modified_date":"2022-06-16 09:55:26"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":7,"last_name":"septaufani","modified_date":"2022-06-16 09:55:42"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":8,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":9,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":10,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":11,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":12,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":13,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":14,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":15,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":16,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":17,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-16 09:57:37","first_name":"Inas","id":18,"last_name":"Salma","modified_date":"2022-06-16 09:57:37"},{"created_date":"2022-06-16 09:57:58","first_name":"Billy","id":19,"last_name":"Salma","modified_date":"2022-06-16 09:57:58"},{"created_date":"2022-06-16 09:58:23","first_name":"Thalia","id":20,"last_name":"Salma","modified_date":"2022-06-16 09:58:23"}],"statuscode":200,"timestamp":"2022-06-16 14:43:54"}}
+{"level":"info","message":{"error":null,"method":"POST","request":null,"response":[{"created_date":"2022-06-14 06:53:57","first_name":"Irwan","id":1,"last_name":"Syah","modified_date":"2022-06-16 09:58:47"},{"created_date":"2022-06-14 14:07:44","first_name":"Taufan","id":2,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":3,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":4,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":5,"last_name":"septaufani","modified_date":"2022-06-16 09:55:08"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":6,"last_name":"septaufani","modified_date":"2022-06-16 09:55:26"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":7,"last_name":"septaufani","modified_date":"2022-06-16 09:55:42"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":8,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":9,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":10,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":11,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":12,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":13,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":14,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":15,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":16,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":17,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-16 09:57:37","first_name":"Inas","id":18,"last_name":"Salma","modified_date":"2022-06-16 09:57:37"},{"created_date":"2022-06-16 09:57:58","first_name":"Billy","id":19,"last_name":"Salma","modified_date":"2022-06-16 09:57:58"},{"created_date":"2022-06-16 09:58:23","first_name":"Thalia","id":20,"last_name":"Salma","modified_date":"2022-06-16 09:58:23"}],"statuscode":200,"timestamp":"2022-06-16 14:49:51"}}
+{"level":"error","message":{"error":"Unknown column 'created_dat' in 'field list'","method":"POST","request":null,"response":null,"statuscode":200,"timestamp":"2022-06-16 14:51:37"}}
+{"level":"error","message":{"error":"Unknown column 'created_dat' in 'field list'","method":"POST","request":null,"response":null,"statuscode":200,"timestamp":"2022-06-16 14:54:41"}}
+{"date":"Thu Jun 16 2022 15:00:56 GMT+0700 (Indochina Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"level":"error","message":"uncaughtException: Cannot set headers after they are sent to the client\nError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:275:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:10:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":248460},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":139033,"external":1215307,"heapTotal":19312640,"heapUsed":17605416,"rss":49348608},"pid":12368,"uid":null,"version":"v16.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:275:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:10:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":275,"method":"json","native":false},{"column":21,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js","function":"Response","line":10,"method":null,"native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":"getAllUsers","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"error","message":{"error":"Unknown column 'created_dat' in 'field list'","method":"POST","request":null,"response":null,"statuscode":200,"timestamp":"2022-06-16 15:02:33"}}
+{"level":"error","message":{"error":"Unknown column 'created_dat' in 'field list'","method":"POST","request":null,"response":null,"statuscode":200,"timestamp":"2022-06-16 15:12:09"}}
+{"level":"error","message":{"error":"Unknown column 'created_dat' in 'field list'","request":null,"response":null,"statuscode":404,"timestamp":"2022-06-16 15:15:35"}}
+{"level":"info","message":{"error":null,"request":null,"response":{"created_date":"2022-06-14 06:53:57","first_name":"Irwan","id":1,"last_name":"Syah","modified_date":"2022-06-16 09:58:47"},"statuscode":200,"timestamp":"2022-06-16 15:25:22"}}
+{"date":"Thu Jun 16 2022 15:26:08 GMT+0700 (Indochina Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"level":"error","message":"uncaughtException: Cannot set headers after they are sent to the client\nError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:9:58)\n    at getUser (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:52:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":249972},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":50491,"external":1126765,"heapTotal":19836928,"heapUsed":17227632,"rss":49500160},"pid":14416,"uid":null,"version":"v16.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:9:58)\n    at getUser (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:52:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":58,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js","function":"Response","line":9,"method":null,"native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":"getUser","line":52,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"date":"Thu Jun 16 2022 15:26:41 GMT+0700 (Indochina Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"level":"error","message":"uncaughtException: Cannot set headers after they are sent to the client\nError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:15:9)\n    at getUser (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:52:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":250004},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":331695,"external":2813656,"heapTotal":34193408,"heapUsed":19881632,"rss":64716800},"pid":7500,"uid":null,"version":"v16.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:15:9)\n    at getUser (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:52:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js","function":"Response","line":15,"method":null,"native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":"getUser","line":52,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"date":"Thu Jun 16 2022 15:31:42 GMT+0700 (Indochina Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"level":"error","message":"uncaughtException: Cannot set headers after they are sent to the client\nError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:15:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":250306},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":395123,"external":2784650,"heapTotal":33931264,"heapUsed":19679296,"rss":64212992},"pid":12968,"uid":null,"version":"v16.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:15:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js","function":"Response","line":15,"method":null,"native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":"getAllUsers","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"date":"Thu Jun 16 2022 15:34:21 GMT+0700 (Indochina Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"level":"error","message":"uncaughtException: Cannot set headers after they are sent to the client\nError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:275:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:9:61)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":250465},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":287751,"external":2813651,"heapTotal":34193408,"heapUsed":19692256,"rss":64774144},"pid":9812,"uid":null,"version":"v16.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:275:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:9:61)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":275,"method":"json","native":false},{"column":21,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":61,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js","function":"Response","line":9,"method":null,"native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":"getAllUsers","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"error","message":{"error":"Unknown column 'created_dat' in 'field list'","request":null,"response":null,"statuscode":500,"timestamp":"2022-06-16 15:35:39"}}
+{"date":"Thu Jun 16 2022 15:36:55 GMT+0700 (Indochina Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"level":"error","message":"uncaughtException: Cannot set headers after they are sent to the client\nError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:275:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:12:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":250618},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":331690,"external":2813651,"heapTotal":34193408,"heapUsed":19977552,"rss":64905216},"pid":15412,"uid":null,"version":"v16.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:275:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:12:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":275,"method":"json","native":false},{"column":21,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js","function":"Response","line":12,"method":null,"native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":"getAllUsers","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"date":"Thu Jun 16 2022 15:37:43 GMT+0700 (Indochina Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"level":"error","message":"uncaughtException: Cannot set headers after they are sent to the client\nError [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:275:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:12:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0,0,0],"uptime":250666},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":331690,"external":2813651,"heapTotal":34455552,"heapUsed":19936008,"rss":64983040},"pid":6548,"uid":null,"version":"v16.14.0"},"stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:275:10)\n    at ServerResponse.send (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js:162:21)\n    at Response (file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js:12:9)\n    at getAllUsers (file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":275,"method":"json","native":false},{"column":21,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/utils/res.js","function":"Response","line":12,"method":null,"native":false},{"column":9,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":"getAllUsers","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"error","message":{"error":"Unknown column 'created_dat' in 'field list'","request":null,"response":null,"statuscode":500,"timestamp":"2022-06-16 15:38:29"}}
+{"level":"info","message":{"error":null,"request":null,"response":[{"created_date":"2022-06-14 06:53:57","first_name":"Irwan","id":1,"last_name":"Syah","modified_date":"2022-06-16 09:58:47"},{"created_date":"2022-06-14 14:07:44","first_name":"Taufan","id":2,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":3,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":4,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":5,"last_name":"septaufani","modified_date":"2022-06-16 09:55:08"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":6,"last_name":"septaufani","modified_date":"2022-06-16 09:55:26"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":7,"last_name":"septaufani","modified_date":"2022-06-16 09:55:42"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":8,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":9,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":10,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":11,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:18:11","first_name":"Taufan","id":12,"last_name":"Septaufani","modified_date":"2022-06-14 14:18:11"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":13,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":14,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":15,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":16,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":17,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-16 09:57:37","first_name":"Inas","id":18,"last_name":"Salma","modified_date":"2022-06-16 09:57:37"},{"created_date":"2022-06-16 09:57:58","first_name":"Billy","id":19,"last_name":"Salma","modified_date":"2022-06-16 09:57:58"},{"created_date":"2022-06-16 09:58:23","first_name":"Thalia","id":20,"last_name":"Salma","modified_date":"2022-06-16 09:58:23"}],"statuscode":200,"timestamp":"2022-06-16 16:37:07"}}
+{"level":"error","message":{"error":"Unknown column 'created_dat' in 'field list'","request":null,"response":null,"status":500,"timestamp":"2022-06-16 16:38:53"}}
+{"level":"error","message":{"error":"User not found","request":{"id":21},"response":null,"status":404,"timestamp":"2022-06-16 16:39:30"}}
+{"level":"info","message":{"error":null,"request":{"id":20},"response":{"created_date":"2022-06-16 09:58:23","first_name":"Thalia","id":20,"last_name":"Salma","modified_date":"2022-06-16 09:58:23"},"status":200,"timestamp":"2022-06-16 16:39:40"}}
+{"level":"info","message":{"error":null,"request":{"created_date":"2022-06-16 16:46:29","first_name":"Thalia","last_name":"Salma","modified_date":"2022-06-16 16:46:29"},"response":null,"status":200,"timestamp":"2022-06-16 16:46:29"}}
+{"level":"info","message":{"error":null,"request":{"id":21},"response":{"created_date":"2022-06-16 16:46:29","first_name":"Thalia","id":21,"last_name":"Salma","modified_date":"2022-06-16 16:46:29"},"status":200,"timestamp":"2022-06-16 16:47:44"}}
+{"level":"info","message":{"error":null,"request":{"first_name":"Irwan","id":21,"last_name":"Syah"},"response":null,"status":200,"timestamp":"2022-06-16 16:48:27"}}
+{"level":"info","message":{"error":null,"request":{"id":12},"response":null,"status":200,"timestamp":"2022-06-16 16:50:21"}}
+{"level":"info","message":{"error":null,"request":{"id":11},"response":"Deleted success","status":200,"timestamp":"2022-06-16 16:56:24"}}
+{"level":"info","message":{"error":null,"request":{"first_name":"Irwan","id":10,"last_name":"Syah"},"response":"Updated success","status":200,"timestamp":"2022-06-16 17:00:05"}}
+{"date":"Fri Jun 17 2022 09:38:18 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\nReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:6:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":315502},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":620847,"external":2457168,"heapTotal":31834112,"heapUsed":21556368,"rss":56197120},"pid":2540,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:6:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":null,"file":null,"function":null,"line":null,"method":null,"native":false},{"column":1,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/server.js","function":null,"line":6,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"date":"Fri Jun 17 2022 09:41:59 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\nReferenceError: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:7:22\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":315723},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":614622,"external":2457168,"heapTotal":31571968,"heapUsed":21592240,"rss":56475648},"pid":14528,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:7:22\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":null,"file":null,"function":null,"line":null,"method":null,"native":false},{"column":22,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/server.js","function":null,"line":7,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"date":"Fri Jun 17 2022 09:48:55 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: (name || \"\").toLowerCase is not a function\nTypeError: (name || \"\").toLowerCase is not a function\n    at normalizeName (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js:404:23)\n    at getZone (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js:426:10)\n    at Function.moment.tz.setDefault (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js:678:31)\n    at file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:8:11\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":316138},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":646576,"external":2457168,"heapTotal":32096256,"heapUsed":21478816,"rss":56774656},"pid":17308,"uid":null,"version":"v16.14.0"},"stack":"TypeError: (name || \"\").toLowerCase is not a function\n    at normalizeName (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js:404:23)\n    at getZone (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js:426:10)\n    at Function.moment.tz.setDefault (C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js:678:31)\n    at file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js:8:11\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":23,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js","function":"normalizeName","line":404,"method":null,"native":false},{"column":10,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js","function":"getZone","line":426,"method":null,"native":false},{"column":31,"file":"C:\\xampp\\htdocs\\expresjs-crud\\node_modules\\moment-timezone\\moment-timezone.js","function":"Function.moment.tz.setDefault","line":678,"method":"setDefault","native":false},{"column":11,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/controllers/controller.js","function":null,"line":8,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"level":"error","message":{"error":"No database selected","request":null,"response":null,"status":500,"timestamp":"2022-06-17 09:49:55"}}
+{"date":"Fri Jun 17 2022 10:03:46 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\nReferenceError: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:7:21\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":317030},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":646576,"external":2457168,"heapTotal":31571968,"heapUsed":21800040,"rss":56139776},"pid":16876,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:7:21\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":null,"file":null,"function":null,"line":null,"method":null,"native":false},{"column":21,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/server.js","function":null,"line":7,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"date":"Fri Jun 17 2022 10:03:57 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\nReferenceError: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:7:21\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":317041},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":646576,"external":2457168,"heapTotal":31834112,"heapUsed":21681192,"rss":56700928},"pid":14392,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:7:21\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":null,"file":null,"function":null,"line":null,"method":null,"native":false},{"column":21,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/server.js","function":null,"line":7,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"date":"Fri Jun 17 2022 10:04:50 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: __filename is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\nReferenceError: __filename is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:9:13\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":317093},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":739010,"external":2457168,"heapTotal":31571968,"heapUsed":21710464,"rss":56332288},"pid":1552,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: __filename is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:9:13\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":null,"file":null,"function":null,"line":null,"method":null,"native":false},{"column":13,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/server.js","function":null,"line":9,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"date":"Fri Jun 17 2022 10:05:17 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\nReferenceError: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:9:13\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":317121},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":631638,"external":2486169,"heapTotal":31571968,"heapUsed":21769344,"rss":56774656},"pid":10420,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: __dirname is not defined in ES module scope\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:9:13\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":null,"file":null,"function":null,"line":null,"method":null,"native":false},{"column":13,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/server.js","function":null,"line":9,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"level":"error","message":{"error":"No database selected","request":null,"response":null,"status":500,"timestamp":"2022-06-17 10:47:43"}}
+{"level":"info","message":{"error":null,"request":{"created_date":"2022-06-17 10:54:35","first_name":"Thalia","last_name":"Salma","modified_date":"2022-06-17 10:54:35"},"response":"Saving success","status":200,"timestamp":"2022-06-17 10:54:35"}}
+{"level":"info","message":{"error":null,"request":{"created_date":"2022-06-17 11:02:35","first_name":"Thalia","last_name":"Salma","modified_date":"2022-06-17 11:02:35"},"response":"Saving success","status":200,"timestamp":"2022-06-17 11:02:35"}}
+{"level":"info","message":{"error":null,"request":{"first_name":"Irwan","id":23,"last_name":"Syah"},"response":"Updated success","status":200,"timestamp":"2022-06-17 11:02:56"}}
+{"level":"info","message":{"error":null,"request":{"id":21},"response":{"created_date":"2022-06-16 16:46:29","first_name":"Irwan","id":21,"last_name":"Syah","modified_date":"2022-06-16 16:48:26"},"status":200,"timestamp":"2022-06-17 11:03:04"}}
+{"level":"info","message":{"error":null,"request":{"id":23},"response":{"created_date":"2022-06-17 11:02:35","first_name":"Irwan","id":23,"last_name":"Syah","modified_date":"2022-06-17 11:02:56"},"status":200,"timestamp":"2022-06-17 11:03:09"}}
+{"level":"info","message":{"error":null,"request":null,"response":[{"created_date":"2022-06-14 06:53:57","first_name":"Irwan","id":1,"last_name":"Syah","modified_date":"2022-06-16 09:58:47"},{"created_date":"2022-06-14 14:07:44","first_name":"Taufan","id":2,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":3,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":4,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":5,"last_name":"septaufani","modified_date":"2022-06-16 09:55:08"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":6,"last_name":"septaufani","modified_date":"2022-06-16 09:55:26"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":7,"last_name":"septaufani","modified_date":"2022-06-16 09:55:42"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":8,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":9,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:18:11","first_name":"Irwan","id":10,"last_name":"Syah","modified_date":"2022-06-16 17:00:05"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":13,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":14,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":15,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":16,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":17,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-16 09:57:37","first_name":"Inas","id":18,"last_name":"Salma","modified_date":"2022-06-16 09:57:37"},{"created_date":"2022-06-16 09:57:58","first_name":"Billy","id":19,"last_name":"Salma","modified_date":"2022-06-16 09:57:58"},{"created_date":"2022-06-16 09:58:23","first_name":"Thalia","id":20,"last_name":"Salma","modified_date":"2022-06-16 09:58:23"},{"created_date":"2022-06-16 16:46:29","first_name":"Irwan","id":21,"last_name":"Syah","modified_date":"2022-06-16 16:48:26"},{"created_date":"2022-06-17 10:54:35","first_name":"Thalia","id":22,"last_name":"Salma","modified_date":"2022-06-17 10:54:35"},{"created_date":"2022-06-17 11:02:35","first_name":"Irwan","id":23,"last_name":"Syah","modified_date":"2022-06-17 11:02:56"}],"status":200,"timestamp":"2022-06-17 11:03:24"}}
+{"level":"info","message":{"error":null,"request":null,"response":[{"created_date":"2022-06-14 06:53:57","first_name":"Irwan","id":1,"last_name":"Syah","modified_date":"2022-06-16 09:58:47"},{"created_date":"2022-06-14 14:07:44","first_name":"Taufan","id":2,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":3,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":4,"last_name":"septaufani","modified_date":"2022-06-16 09:16:33"},{"created_date":"0000-00-00 00:00:00","first_name":"Taufan","id":5,"last_name":"septaufani","modified_date":"2022-06-16 09:55:08"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":6,"last_name":"septaufani","modified_date":"2022-06-16 09:55:26"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":7,"last_name":"septaufani","modified_date":"2022-06-16 09:55:42"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":8,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:16:48","first_name":"Taufan","id":9,"last_name":"Septaufani","modified_date":"2022-06-14 14:16:48"},{"created_date":"2022-06-14 14:18:11","first_name":"Irwan","id":10,"last_name":"Syah","modified_date":"2022-06-16 17:00:05"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":13,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":14,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":15,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":16,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-14 14:19:36","first_name":"Taufan","id":17,"last_name":"Septaufani","modified_date":"2022-06-14 14:19:36"},{"created_date":"2022-06-16 09:57:37","first_name":"Inas","id":18,"last_name":"Salma","modified_date":"2022-06-16 09:57:37"},{"created_date":"2022-06-16 09:57:58","first_name":"Billy","id":19,"last_name":"Salma","modified_date":"2022-06-16 09:57:58"},{"created_date":"2022-06-16 09:58:23","first_name":"Thalia","id":20,"last_name":"Salma","modified_date":"2022-06-16 09:58:23"},{"created_date":"2022-06-16 16:46:29","first_name":"Irwan","id":21,"last_name":"Syah","modified_date":"2022-06-16 16:48:26"},{"created_date":"2022-06-17 10:54:35","first_name":"Thalia","id":22,"last_name":"Salma","modified_date":"2022-06-17 10:54:35"},{"created_date":"2022-06-17 11:02:35","first_name":"Irwan","id":23,"last_name":"Syah","modified_date":"2022-06-17 11:02:56"}],"status":200,"timestamp":"2022-06-17 14:09:07"}}
+{"level":"info","message":{"error":null,"request":{"first_name":"Irwan","id":22,"last_name":"Syah"},"response":"Updated success","status":200,"timestamp":"2022-06-17 14:09:18"}}
+{"level":"info","message":{"error":null,"request":{"id":23},"response":{"created_date":"2022-06-17 11:02:35","first_name":"Irwan","id":23,"last_name":"Syah","modified_date":"2022-06-17 11:02:56"},"status":200,"timestamp":"2022-06-17 14:23:09"}}
+{"date":"Fri Jun 17 2022 14:39:46 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\nReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:6:19\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":4041},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":645932,"external":2500463,"heapTotal":31571968,"heapUsed":21825008,"rss":56270848},"pid":14888,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/server.js:6:19\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":null,"file":null,"function":null,"line":null,"method":null,"native":false},{"column":19,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/server.js","function":null,"line":6,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"level":"info","message":{"error":null,"request":{"id":23},"response":{"created_date":"2022-06-17 11:02:35","first_name":"Irwan","id":23,"last_name":"Syah","modified_date":"2022-06-17 11:02:56"},"status":200,"timestamp":"2022-06-17 15:03:59"}}
+{"date":"Fri Jun 17 2022 15:17:56 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\nReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/config/apikey.js:5:28\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","os":{"loadavg":[0,0,0],"uptime":6332},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\xampp\\htdocs\\expresjs-crud\\src\\server.js"],"cwd":"C:\\xampp\\htdocs\\expresjs-crud","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":120884,"external":2500463,"heapTotal":33206272,"heapUsed":17344024,"rss":57606144},"pid":8952,"uid":null,"version":"v16.14.0"},"stack":"ReferenceError: require is not defined in ES module scope, you can use import instead\nThis file is being treated as an ES module because it has a '.js' file extension and 'C:\\xampp\\htdocs\\expresjs-crud\\package.json' contains \"type\": \"module\". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.\n    at file:///C:/xampp/htdocs/expresjs-crud/src/config/apikey.js:5:28\n    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n    at async Promise.all (index 0)\n    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n    at async loadESM (node:internal/process/esm_loader:88:5)\n    at async handleMainPromise (node:internal/modules/run_main:61:12)","trace":[{"column":null,"file":null,"function":null,"line":null,"method":null,"native":false},{"column":28,"file":"file:///C:/xampp/htdocs/expresjs-crud/src/config/apikey.js","function":null,"line":5,"method":null,"native":false},{"column":25,"file":"node:internal/modules/esm/module_job","function":"ModuleJob.run","line":195,"method":"run","native":false},{"column":null,"file":null,"function":"async Promise.all","line":null,"method":"all","native":false},{"column":24,"file":"node:internal/modules/esm/loader","function":"async ESMLoader.import","line":337,"method":"import","native":false},{"column":5,"file":"node:internal/process/esm_loader","function":"async loadESM","line":88,"method":null,"native":false},{"column":12,"file":"node:internal/modules/run_main","function":"async handleMainPromise","line":61,"method":null,"native":false}]}
+{"level":"error","message":{"error":"Missing Api Key","request":{"id":23},"response":null,"status":401,"timestamp":"2022-06-17 15:19:09"}}
+{"level":"error","message":{"error":"Missing Api Key","request":{"id":23},"response":null,"status":401,"timestamp":"2022-06-17 15:21:32"}}
+{"level":"error","message":{"error":"Missing Api Key","request":{"id":23},"response":null,"status":401,"timestamp":"2022-06-17 15:23:35"}}
+{"level":"info","message":{"error":null,"request":{"id":23},"response":{"created_date":"2022-06-17 11:02:35","first_name":"Irwan","id":23,"last_name":"Syah","modified_date":"2022-06-17 11:02:56"},"status":200,"timestamp":"2022-06-17 15:24:14"}}
+{"level":"info","message":{"error":null,"request":{"id":22},"response":{"created_date":"2022-06-17 10:54:35","first_name":"Irwan","id":22,"last_name":"Syah","modified_date":"2022-06-17 14:09:18"},"status":200,"timestamp":"2022-06-17 15:25:20"}}
+{"level":"info","message":{"error":null,"request":{"id":22},"response":{"created_date":"2022-06-17 10:54:35","first_name":"Irwan","id":22,"last_name":"Syah","modified_date":"2022-06-17 14:09:18"},"status":200,"timestamp":"2022-06-17 15:33:09","url":"/vi/api/users/user"}}
+{"level":"info","message":{"error":null,"request":{"id":22},"status":200,"timestamp":"2022-06-17 15:37:04","url":"/vi/api/users/user"}}
+{"level":"info","message":{"error":null,"request":{"id":22},"response":{"_closed":false,"_contentLength":168,"_defaultKeepAlive":true,"_events":{},"_eventsCount":1,"_expect_continue":false,"_hasBody":true,"_header":"HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nAccess-Control-Allow-Origin: *\r\nContent-Type: application/json; charset=utf-8\r\nContent-Length: 168\r\nETag: W/\"a8-0IH9r9Az1izinbYZjrC86V7Sqow\"\r\nDate: Fri, 17 Jun 2022 08:38:48 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=5\r\n\r\n","_headerSent":true,"_keepAliveTimeout":5000,"_last":false,"_removedConnection":false,"_removedContLen":false,"_removedTE":false,"_sent100":false,"_trailer":"","chunkedEncoding":false,"destroyed":false,"finished":true,"locals":{},"maxRequestsOnConnectionReached":false,"outputData":[],"outputSize":0,"req":{"_body":true,"_consuming":true,"_dumped":false,"_events":{},"_eventsCount":1,"_parsedUrl":{"_raw":"/vi/api/users/user","auth":null,"hash":null,"host":null,"hostname":null,"href":"/vi/api/users/user","path":"/vi/api/users/user","pathname":"/vi/api/users/user","port":null,"protocol":null,"query":null,"search":null,"slashes":null},"_readableState":{"autoDestroy":true,"awaitDrainWriters":null,"buffer":{"head":null,"length":0,"tail":null},"closeEmitted":true,"closed":true,"constructed":true,"dataEmitted":true,"decoder":null,"defaultEncoding":"utf8","destroyed":true,"emitClose":true,"emittedReadable":false,"encoding":null,"endEmitted":true,"ended":true,"errorEmitted":false,"errored":null,"flowing":true,"highWaterMark":16384,"length":0,"multiAwaitDrain":false,"needReadable":false,"objectMode":false,"pipes":[],"readableListening":false,"reading":false,"readingMore":false,"resumeScheduled":false,"sync":false},"aborted":false,"baseUrl":"","body":{"id":22},"client":{"_events":{"close":[null,null],"end":[null,null]},"_eventsCount":8,"_hadError":false,"_host":null,"_httpMessage":"[Circular]","_parent":null,"_paused":false,"_pendingData":null,"_pendingEncoding":"","_readableState":{"autoDestroy":true,"awaitDrainWriters":null,"buffer":{"head":null,"length":0,"tail":null},"closeEmitted":false,"closed":false,"constructed":true,"dataEmitted":false,"decoder":null,"defaultEncoding":"utf8","destroyed":false,"emitClose":false,"emittedReadable":false,"encoding":null,"endEmitted":false,"ended":false,"errorEmitted":false,"errored":null,"flowing":true,"highWaterMark":16384,"length":0,"multiAwaitDrain":false,"needReadable":true,"objectMode":false,"pipes":[],"readableListening":false,"reading":true,"readingMore":false,"resumeScheduled":false,"sync":false},"_server":{"_connectionKey":"6::::8081","_connections":1,"_events":{},"_eventsCount":2,"_handle":{"reading":false},"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"_sockname":null,"_writableState":{"afterWriteTickInfo":{"count":1,"state":"[Circular]","stream":"[Circular]"},"allBuffers":true,"allNoop":true,"autoDestroy":true,"bufferProcessing":false,"buffered":[],"bufferedIndex":0,"closeEmitted":false,"closed":false,"constructed":true,"corked":0,"decodeStrings":false,"defaultEncoding":"utf8","destroyed":false,"emitClose":false,"ended":false,"ending":false,"errorEmitted":false,"errored":null,"finalCalled":false,"finished":false,"highWaterMark":16384,"length":0,"needDrain":false,"objectMode":false,"pendingcb":1,"prefinished":false,"sync":false,"writecb":null,"writelen":0,"writing":false},"allowHalfOpen":true,"connecting":false,"parser":{"_consumed":true,"_headers":[],"_url":"","incoming":"[Circular]","maxHeaderPairs":2000,"outgoing":null,"socket":"[Circular]"},"server":{"_connectionKey":"6::::8081","_connections":1,"_events":{},"_eventsCount":2,"_handle":{"reading":false},"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0}},"complete":true,"httpVersion":"1.1","httpVersionMajor":1,"httpVersionMinor":1,"method":"POST","originalUrl":"/vi/api/users/user","params":{},"query":{},"rawHeaders":["x_api_key","tayo","Content-Type","application/json","User-Agent","PostmanRuntime/7.29.0","Accept","*/*","Cache-Control","no-cache","Postman-Token","5c1bf4fe-0cfc-480c-ba85-46461a74f886","Host","127.0.0.1:8081","Accept-Encoding","gzip, deflate, br","Connection","keep-alive","Content-Length","17"],"rawTrailers":[],"res":"[Circular]","route":{"methods":{"post":true},"path":"/vi/api/users/user","stack":[{"keys":[],"method":"post","name":"getUser","regexp":{"fast_slash":false,"fast_star":false}}]},"socket":{"_events":{"close":[null,null],"end":[null,null]},"_eventsCount":8,"_hadError":false,"_host":null,"_httpMessage":"[Circular]","_parent":null,"_paused":false,"_pendingData":null,"_pendingEncoding":"","_readableState":{"autoDestroy":true,"awaitDrainWriters":null,"buffer":{"head":null,"length":0,"tail":null},"closeEmitted":false,"closed":false,"constructed":true,"dataEmitted":false,"decoder":null,"defaultEncoding":"utf8","destroyed":false,"emitClose":false,"emittedReadable":false,"encoding":null,"endEmitted":false,"ended":false,"errorEmitted":false,"errored":null,"flowing":true,"highWaterMark":16384,"length":0,"multiAwaitDrain":false,"needReadable":true,"objectMode":false,"pipes":[],"readableListening":false,"reading":true,"readingMore":false,"resumeScheduled":false,"sync":false},"_server":{"_connectionKey":"6::::8081","_connections":1,"_events":{},"_eventsCount":2,"_handle":{"reading":false},"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"_sockname":null,"_writableState":{"afterWriteTickInfo":{"count":1,"state":"[Circular]","stream":"[Circular]"},"allBuffers":true,"allNoop":true,"autoDestroy":true,"bufferProcessing":false,"buffered":[],"bufferedIndex":0,"closeEmitted":false,"closed":false,"constructed":true,"corked":0,"decodeStrings":false,"defaultEncoding":"utf8","destroyed":false,"emitClose":false,"ended":false,"ending":false,"errorEmitted":false,"errored":null,"finalCalled":false,"finished":false,"highWaterMark":16384,"length":0,"needDrain":false,"objectMode":false,"pendingcb":1,"prefinished":false,"sync":false,"writecb":null,"writelen":0,"writing":false},"allowHalfOpen":true,"connecting":false,"parser":{"_consumed":true,"_headers":[],"_url":"","incoming":"[Circular]","maxHeaderPairs":2000,"outgoing":null,"socket":"[Circular]"},"server":{"_connectionKey":"6::::8081","_connections":1,"_events":{},"_eventsCount":2,"_handle":{"reading":false},"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0}},"statusCode":null,"statusMessage":null,"upgrade":false,"url":"/vi/api/users/user"},"sendDate":true,"shouldKeepAlive":true,"socket":{"_events":{"close":[null,null],"end":[null,null]},"_eventsCount":8,"_hadError":false,"_host":null,"_httpMessage":"[Circular]","_parent":null,"_paused":false,"_pendingData":null,"_pendingEncoding":"","_readableState":{"autoDestroy":true,"awaitDrainWriters":null,"buffer":{"head":null,"length":0,"tail":null},"closeEmitted":false,"closed":false,"constructed":true,"dataEmitted":false,"decoder":null,"defaultEncoding":"utf8","destroyed":false,"emitClose":false,"emittedReadable":false,"encoding":null,"endEmitted":false,"ended":false,"errorEmitted":false,"errored":null,"flowing":true,"highWaterMark":16384,"length":0,"multiAwaitDrain":false,"needReadable":true,"objectMode":false,"pipes":[],"readableListening":false,"reading":true,"readingMore":false,"resumeScheduled":false,"sync":false},"_server":{"_connectionKey":"6::::8081","_connections":1,"_events":{},"_eventsCount":2,"_handle":{"reading":false},"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0},"_sockname":null,"_writableState":{"afterWriteTickInfo":{"count":1,"state":"[Circular]","stream":"[Circular]"},"allBuffers":true,"allNoop":true,"autoDestroy":true,"bufferProcessing":false,"buffered":[],"bufferedIndex":0,"closeEmitted":false,"closed":false,"constructed":true,"corked":0,"decodeStrings":false,"defaultEncoding":"utf8","destroyed":false,"emitClose":false,"ended":false,"ending":false,"errorEmitted":false,"errored":null,"finalCalled":false,"finished":false,"highWaterMark":16384,"length":0,"needDrain":false,"objectMode":false,"pendingcb":1,"prefinished":false,"sync":false,"writecb":null,"writelen":0,"writing":false},"allowHalfOpen":true,"connecting":false,"parser":{"_consumed":true,"_headers":[],"_url":"","incoming":{"_body":true,"_consuming":true,"_dumped":false,"_events":{},"_eventsCount":1,"_parsedUrl":{"_raw":"/vi/api/users/user","auth":null,"hash":null,"host":null,"hostname":null,"href":"/vi/api/users/user","path":"/vi/api/users/user","pathname":"/vi/api/users/user","port":null,"protocol":null,"query":null,"search":null,"slashes":null},"_readableState":{"autoDestroy":true,"awaitDrainWriters":null,"buffer":{"head":null,"length":0,"tail":null},"closeEmitted":true,"closed":true,"constructed":true,"dataEmitted":true,"decoder":null,"defaultEncoding":"utf8","destroyed":true,"emitClose":true,"emittedReadable":false,"encoding":null,"endEmitted":true,"ended":true,"errorEmitted":false,"errored":null,"flowing":true,"highWaterMark":16384,"length":0,"multiAwaitDrain":false,"needReadable":false,"objectMode":false,"pipes":[],"readableListening":false,"reading":false,"readingMore":false,"resumeScheduled":false,"sync":false},"aborted":false,"baseUrl":"","body":{"id":22},"client":"[Circular]","complete":true,"httpVersion":"1.1","httpVersionMajor":1,"httpVersionMinor":1,"method":"POST","originalUrl":"/vi/api/users/user","params":{},"query":{},"rawHeaders":["x_api_key","tayo","Content-Type","application/json","User-Agent","PostmanRuntime/7.29.0","Accept","*/*","Cache-Control","no-cache","Postman-Token","5c1bf4fe-0cfc-480c-ba85-46461a74f886","Host","127.0.0.1:8081","Accept-Encoding","gzip, deflate, br","Connection","keep-alive","Content-Length","17"],"rawTrailers":[],"res":"[Circular]","route":{"methods":{"post":true},"path":"/vi/api/users/user","stack":[{"keys":[],"method":"post","name":"getUser","regexp":{"fast_slash":false,"fast_star":false}}]},"socket":"[Circular]","statusCode":null,"statusMessage":null,"upgrade":false,"url":"/vi/api/users/user"},"maxHeaderPairs":2000,"outgoing":null,"socket":"[Circular]"},"server":{"_connectionKey":"6::::8081","_connections":1,"_events":{},"_eventsCount":2,"_handle":{"reading":false},"_unref":false,"_usingWorkers":false,"_workers":[],"allowHalfOpen":true,"headersTimeout":60000,"httpAllowHalfOpen":false,"keepAliveTimeout":5000,"maxHeadersCount":null,"maxRequestsPerSocket":0,"pauseOnConnect":false,"requestTimeout":0,"timeout":0}},"statusCode":200,"statusMessage":"OK","useChunkedEncodingByDefault":true,"writable":true},"status":200,"timestamp":"2022-06-17 15:38:48","url":"/vi/api/users/user"}}
+{"level":"info","message":{"error":null,"request":{"id":22},"response":{"created_date":"2022-06-17 10:54:35","first_name":"Irwan","id":22,"last_name":"Syah","modified_date":"2022-06-17 14:09:18"},"status":200,"timestamp":"2022-06-17 15:44:53","url":"/vi/api/users/user"}}
+{
+  message: {
+    timestamp: '2022-06-17 15:58:17',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 15:59:48',
+    status: 500,
+    request: null,
+    response: null,
+    error: 'WHERE parameter "id" has invalid "undefined" value',
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:00:25',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:05:21',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:05:31',
+    status: 500,
+    request: null,
+    response: null,
+    error: "Cannot access 'user' before initialization",
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:06:03',
+    status: 500,
+    request: null,
+    response: null,
+    error: "Cannot access 'user' before initialization",
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:07:31',
+    status: 404,
+    request: { ids: 22 },
+    response: null,
+    error: 'Oopss... missing some body request',
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:07:31',
+    status: 500,
+    request: null,
+    response: null,
+    error: 'WHERE parameter "id" has invalid "undefined" value',
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:09:03',
+    status: 404,
+    request: { ids: 22 },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:09:03',
+    status: 500,
+    request: null,
+    response: null,
+    error: 'WHERE parameter "id" has invalid "undefined" value',
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:09:27',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:12:24',
+    status: 401,
+    request: { first_name: 'Thalia', last_names: 'Salma' },
+    response: null,
+    error: 'Missing Api Key',
+    url: undefined
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:12:57',
+    status: 200,
+    request: {
+      first_name: 'Thalia',
+      last_names: 'Salma',
+      created_date: '2022-06-17 16:12:57',
+      modified_date: '2022-06-17 16:12:57'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:15:50',
+    status: 200,
+    request: {
+      first_name: 'Thalia',
+      last_names: 'Salma',
+      created_date: '2022-06-17 16:15:50',
+      modified_date: '2022-06-17 16:15:50'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:16:19',
+    status: 200,
+    request: {
+      first_name: 'Thalia',
+      last_names: 'Salma',
+      created_date: '2022-06-17 16:16:19',
+      modified_date: '2022-06-17 16:16:19'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:17:38',
+    status: 200,
+    request: {
+      first_name: 'Thalia',
+      last_names: 'Salma',
+      created_date: '2022-06-17 16:17:38',
+      modified_date: '2022-06-17 16:17:38'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:18:06',
+    status: 200,
+    request: {
+      first_name: 'Thalia',
+      last_names: 'Salma',
+      created_date: '2022-06-17 16:18:06',
+      modified_date: '2022-06-17 16:18:06'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:18:49',
+    status: 200,
+    request: {
+      first_name: 'Thalia',
+      last_names: 'Salma',
+      created_date: '2022-06-17 16:18:49',
+      modified_date: '2022-06-17 16:18:49'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:19:45',
+    status: 200,
+    request: {
+      first_names: 'Thalia',
+      last_names: 'Salma',
+      created_date: '2022-06-17 16:19:45',
+      modified_date: '2022-06-17 16:19:45'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:20:33',
+    status: 200,
+    request: {
+      created_date: '2022-06-17 16:20:33',
+      modified_date: '2022-06-17 16:20:33'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:21:12',
+    status: 200,
+    request: {
+      created_date: '2022-06-17 16:21:12',
+      modified_date: '2022-06-17 16:21:12'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:22:23',
+    status: 200,
+    request: {
+      created_date: '2022-06-17 16:22:23',
+      modified_date: '2022-06-17 16:22:23'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:22:47',
+    status: 200,
+    request: {
+      created_date: '2022-06-17 16:22:47',
+      modified_date: '2022-06-17 16:22:47'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:22:49',
+    status: 200,
+    request: {
+      created_date: '2022-06-17 16:22:49',
+      modified_date: '2022-06-17 16:22:49'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:26:36',
+    status: 500,
+    request: null,
+    response: null,
+    error: 'data is not defined',
+    url: '/vi/api/users/save'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:27:43',
+    status: 500,
+    request: null,
+    response: null,
+    error: 'data is not defined',
+    url: '/vi/api/users/save'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:28:09',
+    status: 404,
+    request: { first_names: 'Thalia', last_names: 'Salma' },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/save'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:29:48',
+    status: 404,
+    request: { first_names: 'Thalia', last_names: 'Salma' },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/save'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:30:47',
+    status: 404,
+    request: { first_name: 'Thalia', last_names: 'Salma' },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/save'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:31:37',
+    status: 404,
+    request: { first_name: 'Thalia', last_names: 'Salma' },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/save'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:33:07',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:33:13',
+    status: 404,
+    request: { ids: 22 },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:35:29',
+    status: 404,
+    request: { ids: 22 },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/user'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:35:33',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 14:09:18'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:35:43',
+    status: 401,
+    request: { ids: 22, first_name: 'Irwan', last_name: 'Syah' },
+    response: null,
+    error: 'Missing Api Key',
+    url: undefined
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:36:14',
+    status: 404,
+    request: { ids: 22, first_name: 'Irwan', last_name: 'Syah' },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/update'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:36:24',
+    status: 404,
+    request: { id: 22, first_names: 'Irwan', last_name: 'Syah' },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/update'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:36:32',
+    status: 404,
+    request: { id: 22, first_name: 'Irwan', last_names: 'Syah' },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/update'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:36:38',
+    status: 200,
+    request: { id: 22, first_name: 'Irwan', last_name: 'Syah' },
+    response: 'Updated success',
+    error: null,
+    url: '/vi/api/users/update'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:36:54',
+    status: 401,
+    request: { ids: 11 },
+    response: null,
+    error: 'Missing Api Key',
+    url: undefined
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:37:22',
+    status: 404,
+    request: { ids: 11 },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/delete'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 16:37:31',
+    status: 200,
+    request: { id: 23 },
+    response: 'Deleted success',
+    error: null,
+    url: '/vi/api/users/delete'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-17 17:01:19',
+    status: 401,
+    request: { id: 23 },
+    response: null,
+    error: 'Missing Api Key',
+    url: undefined
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 17:01:26',
+    status: 401,
+    request: { id: 23 },
+    response: null,
+    error: 'Missing Api Key',
+    url: undefined
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-17 17:01:32',
+    status: 404,
+    request: { id: 23 },
+    response: null,
+    error: 'User not found',
+    url: '/vi/api/users/delete'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-20 15:12:28',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:09:01',
+    status: 404,
+    request: { first_name: 'Marwin', last_names: 'Hani' },
+    response: null,
+    error: 'Oopss... invalid body request',
+    url: '/vi/api/users/save'
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:09:16',
+    status: 200,
+    request: {
+      first_name: 'Marwin',
+      last_name: 'Hani',
+      created_date: '2022-06-21 15:09:16',
+      modified_date: '2022-06-21 15:09:16'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:14:03',
+    status: 401,
+    request: { first_name: 'Marwin', last_name: 'Hani' },
+    response: null,
+    error: 'Missing Api Key',
+    url: undefined
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:14:14',
+    status: 401,
+    request: { first_name: 'Marwin', last_name: 'Hani' },
+    response: null,
+    error: 'Missing Api Key',
+    url: undefined
+  },
+  level: 'error'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:17:18',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:25:16',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:26:07',
+    status: 200,
+    request: {
+      first_name: 'Marwin',
+      last_name: 'Hani',
+      created_date: '2022-06-21 15:26:07',
+      modified_date: '2022-06-21 15:26:07'
+    },
+    response: 'Saving success',
+    error: null,
+    url: '/vi/api/users/save'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:34:33',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:34:51',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: 2022-06-17T10:54:35.000Z,
+        modified_date: 2022-06-17T16:36:38.000Z
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: 2022-06-17T10:54:35.000Z,
+        modified_date: 2022-06-17T16:36:38.000Z
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:35:15',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: 2022-06-17T10:54:35.000Z,
+        modified_date: 2022-06-17T16:36:38.000Z
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: 2022-06-17T10:54:35.000Z,
+        modified_date: 2022-06-17T16:36:38.000Z
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:35:31',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:37:17',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 15:38:01',
+    status: 200,
+    request: { id: 22 },
+    response: person {
+      dataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      _previousDataValues: {
+        id: 22,
+        first_name: 'Irwan',
+        last_name: 'Syah',
+        created_date: '2022-06-17 10:54:35',
+        modified_date: '2022-06-17 16:36:38'
+      },
+      uniqno: 1,
+      _changed: Set(0) {},
+      _options: {
+        isNewRecord: false,
+        _schema: null,
+        _schemaDelimiter: '',
+        raw: true,
+        attributes: [
+          'id',
+          'first_name',
+          'last_name',
+          'created_date',
+          'modified_date'
+        ]
+      },
+      isNewRecord: false
+    },
+    error: null,
+    url: '/vi/api/users/user'
+  },
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2022-06-21 16:04:36',
+    status: 200,
+    request: null,
+    response: [
+      person {
+        dataValues: {
+          id: 1,
+          first_name: 'Irwan',
+          last_name: 'Syah',
+          created_date: '2022-06-14 06:53:57',
+          modified_date: '2022-06-16 09:58:47'
+        },
+        _previousDataValues: {
+          id: 1,
+          first_name: 'Irwan',
+          last_name: 'Syah',
+          created_date: '2022-06-14 06:53:57',
+          modified_date: '2022-06-16 09:58:47'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 2,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '2022-06-14 14:07:44',
+          modified_date: '2022-06-16 09:16:33'
+        },
+        _previousDataValues: {
+          id: 2,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '2022-06-14 14:07:44',
+          modified_date: '2022-06-16 09:16:33'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 3,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '0000-00-00 00:00:00',
+          modified_date: '2022-06-16 09:16:33'
+        },
+        _previousDataValues: {
+          id: 3,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '0000-00-00 00:00:00',
+          modified_date: '2022-06-16 09:16:33'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 4,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '0000-00-00 00:00:00',
+          modified_date: '2022-06-16 09:16:33'
+        },
+        _previousDataValues: {
+          id: 4,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '0000-00-00 00:00:00',
+          modified_date: '2022-06-16 09:16:33'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 5,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '0000-00-00 00:00:00',
+          modified_date: '2022-06-16 09:55:08'
+        },
+        _previousDataValues: {
+          id: 5,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '0000-00-00 00:00:00',
+          modified_date: '2022-06-16 09:55:08'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 6,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '2022-06-14 14:16:48',
+          modified_date: '2022-06-16 09:55:26'
+        },
+        _previousDataValues: {
+          id: 6,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '2022-06-14 14:16:48',
+          modified_date: '2022-06-16 09:55:26'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 7,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '2022-06-14 14:16:48',
+          modified_date: '2022-06-16 09:55:42'
+        },
+        _previousDataValues: {
+          id: 7,
+          first_name: 'Taufan',
+          last_name: 'septaufani',
+          created_date: '2022-06-14 14:16:48',
+          modified_date: '2022-06-16 09:55:42'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 8,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:16:48',
+          modified_date: '2022-06-14 14:16:48'
+        },
+        _previousDataValues: {
+          id: 8,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:16:48',
+          modified_date: '2022-06-14 14:16:48'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 9,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:16:48',
+          modified_date: '2022-06-14 14:16:48'
+        },
+        _previousDataValues: {
+          id: 9,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:16:48',
+          modified_date: '2022-06-14 14:16:48'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 10,
+          first_name: 'Irwan',
+          last_name: 'Syah',
+          created_date: '2022-06-14 14:18:11',
+          modified_date: '2022-06-16 17:00:05'
+        },
+        _previousDataValues: {
+          id: 10,
+          first_name: 'Irwan',
+          last_name: 'Syah',
+          created_date: '2022-06-14 14:18:11',
+          modified_date: '2022-06-16 17:00:05'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 13,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        _previousDataValues: {
+          id: 13,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 14,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        _previousDataValues: {
+          id: 14,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 15,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        _previousDataValues: {
+          id: 15,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 16,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        _previousDataValues: {
+          id: 16,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 17,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        _previousDataValues: {
+          id: 17,
+          first_name: 'Taufan',
+          last_name: 'Septaufani',
+          created_date: '2022-06-14 14:19:36',
+          modified_date: '2022-06-14 14:19:36'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 18,
+          first_name: 'Inas',
+          last_name: 'Salma',
+          created_date: '2022-06-16 09:57:37',
+          modified_date: '2022-06-16 09:57:37'
+        },
+        _previousDataValues: {
+          id: 18,
+          first_name: 'Inas',
+          last_name: 'Salma',
+          created_date: '2022-06-16 09:57:37',
+          modified_date: '2022-06-16 09:57:37'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 19,
+          first_name: 'Billy',
+          last_name: 'Salma',
+          created_date: '2022-06-16 09:57:58',
+          modified_date: '2022-06-16 09:57:58'
+        },
+        _previousDataValues: {
+          id: 19,
+          first_name: 'Billy',
+          last_name: 'Salma',
+          created_date: '2022-06-16 09:57:58',
+          modified_date: '2022-06-16 09:57:58'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 20,
+          first_name: 'Thalia',
+          last_name: 'Salma',
+          created_date: '2022-06-16 09:58:23',
+          modified_date: '2022-06-16 09:58:23'
+        },
+        _previousDataValues: {
+          id: 20,
+          first_name: 'Thalia',
+          last_name: 'Salma',
+          created_date: '2022-06-16 09:58:23',
+          modified_date: '2022-06-16 09:58:23'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 21,
+          first_name: 'Irwan',
+          last_name: 'Syah',
+          created_date: '2022-06-16 16:46:29',
+          modified_date: '2022-06-16 16:48:26'
+        },
+        _previousDataValues: {
+          id: 21,
+          first_name: 'Irwan',
+          last_name: 'Syah',
+          created_date: '2022-06-16 16:46:29',
+          modified_date: '2022-06-16 16:48:26'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 22,
+          first_name: 'Irwan',
+          last_name: 'Syah',
+          created_date: '2022-06-17 10:54:35',
+          modified_date: '2022-06-17 16:36:38'
+        },
+        _previousDataValues: {
+          id: 22,
+          first_name: 'Irwan',
+          last_name: 'Syah',
+          created_date: '2022-06-17 10:54:35',
+          modified_date: '2022-06-17 16:36:38'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 24,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:12:57',
+          modified_date: '2022-06-17 16:12:57'
+        },
+        _previousDataValues: {
+          id: 24,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:12:57',
+          modified_date: '2022-06-17 16:12:57'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 25,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:15:50',
+          modified_date: '2022-06-17 16:15:50'
+        },
+        _previousDataValues: {
+          id: 25,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:15:50',
+          modified_date: '2022-06-17 16:15:50'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 26,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:16:19',
+          modified_date: '2022-06-17 16:16:19'
+        },
+        _previousDataValues: {
+          id: 26,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:16:19',
+          modified_date: '2022-06-17 16:16:19'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 27,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:17:38',
+          modified_date: '2022-06-17 16:17:38'
+        },
+        _previousDataValues: {
+          id: 27,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:17:38',
+          modified_date: '2022-06-17 16:17:38'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 28,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:18:06',
+          modified_date: '2022-06-17 16:18:06'
+        },
+        _previousDataValues: {
+          id: 28,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:18:06',
+          modified_date: '2022-06-17 16:18:06'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 29,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:18:49',
+          modified_date: '2022-06-17 16:18:49'
+        },
+        _previousDataValues: {
+          id: 29,
+          first_name: 'Thalia',
+          last_name: '',
+          created_date: '2022-06-17 16:18:49',
+          modified_date: '2022-06-17 16:18:49'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 30,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:19:45',
+          modified_date: '2022-06-17 16:19:45'
+        },
+        _previousDataValues: {
+          id: 30,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:19:45',
+          modified_date: '2022-06-17 16:19:45'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 31,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:20:33',
+          modified_date: '2022-06-17 16:20:33'
+        },
+        _previousDataValues: {
+          id: 31,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:20:33',
+          modified_date: '2022-06-17 16:20:33'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 32,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:21:12',
+          modified_date: '2022-06-17 16:21:12'
+        },
+        _previousDataValues: {
+          id: 32,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:21:12',
+          modified_date: '2022-06-17 16:21:12'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 33,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:22:23',
+          modified_date: '2022-06-17 16:22:23'
+        },
+        _previousDataValues: {
+          id: 33,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:22:23',
+          modified_date: '2022-06-17 16:22:23'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 34,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:22:47',
+          modified_date: '2022-06-17 16:22:47'
+        },
+        _previousDataValues: {
+          id: 34,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:22:47',
+          modified_date: '2022-06-17 16:22:47'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 35,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:22:49',
+          modified_date: '2022-06-17 16:22:49'
+        },
+        _previousDataValues: {
+          id: 35,
+          first_name: '',
+          last_name: '',
+          created_date: '2022-06-17 16:22:49',
+          modified_date: '2022-06-17 16:22:49'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 36,
+          first_name: 'Marwin',
+          last_name: 'Hani',
+          created_date: '2022-06-21 15:09:16',
+          modified_date: '2022-06-21 15:09:16'
+        },
+        _previousDataValues: {
+          id: 36,
+          first_name: 'Marwin',
+          last_name: 'Hani',
+          created_date: '2022-06-21 15:09:16',
+          modified_date: '2022-06-21 15:09:16'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      },
+      person {
+        dataValues: {
+          id: 37,
+          first_name: 'Marwin',
+          last_name: 'Hani',
+          created_date: '2022-06-21 15:26:07',
+          modified_date: '2022-06-21 15:26:07'
+        },
+        _previousDataValues: {
+          id: 37,
+          first_name: 'Marwin',
+          last_name: 'Hani',
+          created_date: '2022-06-21 15:26:07',
+          modified_date: '2022-06-21 15:26:07'
+        },
+        uniqno: 1,
+        _changed: Set(0) {},
+        _options: {
+          isNewRecord: false,
+          _schema: null,
+          _schemaDelimiter: '',
+          raw: true,
+          attributes: [
+            'id',
+            'first_name',
+            'last_name',
+            'created_date',
+            'modified_date'
+          ]
+        },
+        isNewRecord: false
+      }
+    ],
+    error: null,
+    url: '/vi/api/users/'
+  },
+  level: 'info'
+}

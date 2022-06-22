@@ -1,11 +1,13 @@
 import cors from 'cors';
-import db from '../src/config/database.js';
-import Router from '../src/routes/routes.js';
+import db from './config/database.js';
+import Router from './routes/routes.js';
 import express from 'express';
+import Auth from './config/apikey.js';
 
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use(Auth);
 
 try {
     await db.authenticate();
