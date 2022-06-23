@@ -30,3 +30,11 @@ export function logging(timestamp,statuscode,error,req,res,url){
     if(error !== null) logger.error(data)
     else logger.info(data);
 }
+export function queryLogging(timestamp,query){
+    var data = {
+        'timestamp': timestamp,
+        'query': query  
+    };
+
+    logger.info(data);
+}
