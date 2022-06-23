@@ -3,6 +3,10 @@ import db from './config/database.js';
 import Router from './routes/routes.js';
 import express from 'express';
 import Auth from './config/apikey.js';
+import { TIMEZONE } from './config/config.js';
+import moment from 'moment-timezone';
+
+moment.tz.setDefault(TIMEZONE)
 
 const app = express();
 app.use(express.json());

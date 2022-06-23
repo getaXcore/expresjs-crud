@@ -2,9 +2,9 @@ import User from "../models/user.js";
 import Response, { logging } from "../utils/res.js";
 import moment from 'moment-timezone';
 import sequelize from "sequelize";
-import {TIMEZONE} from '../config/config.js'
+//import {TIMEZONE} from '../config/config.js'
 
-moment.tz.setDefault(TIMEZONE);
+//moment.tz.setDefault(TIMEZONE);
 
 export const getAllUsers = async (req, res) => {
     try {
